@@ -9,6 +9,7 @@
 *.so
 *.dll
 *.dylib
+*.bc
 
 # Qt-es
 
@@ -45,3 +46,4 @@ regression.diffs
 regression.out
 /sql/ extension_name =>--*
 !/sql/<%= extension_name =>--*--*.sql
+sql/pg_rrule*.sql
